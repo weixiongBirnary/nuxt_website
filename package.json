@@ -12,8 +12,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
-    "cross-env": "^5.2.0",
     "@adonisjs/ace": "^4.0.7",
     "@adonisjs/auth": "^2.0.10",
     "@adonisjs/bodyparser": "^1.0.8",
@@ -24,13 +22,18 @@
     "@adonisjs/lucid": "^4.0.22",
     "@adonisjs/session": "^1.0.19",
     "@adonisjs/shield": "^1.0.4",
-    "ant-design-vue": "^1.1.10"
+    "ant-design-vue": "^1.1.10",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-jest": "^24.1.0",
+    "css-loader": "^3.4.2",
     "jest": "^24.1.0",
+    "node-sass": "^4.13.1",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^8.0.2",
     "vue-jest": "^4.0.0-0"
   }
 }
