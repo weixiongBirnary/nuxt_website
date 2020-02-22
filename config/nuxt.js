@@ -36,7 +36,8 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/antd-ui'
+    // '@/plugins/antd-ui'
+    '@/plugins/components'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -47,6 +48,13 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    [
+      'storyblok-nuxt',
+      {
+        accessToken: 'ATGdFdhewlGnD4HpzdEnigtt',
+        cacheProvider: 'memory'
+      }
+    ]
   ],
   /*
   ** Build configuration
