@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "name": "storyblok-nuxtjs",
+    "builds": [
+      {
+        "src": "nuxt.config.js",
+        "use": "@nuxtjs/now-builder",
+        "config": {}
+      }
+    ],
+    "scope": "weixiong_birnary",
+    "regions": ["bru1"],
+    "public": false
+  }
