@@ -13,5 +13,6 @@ export default {
 <style lang="scss">
 .slide img {
     width: 100%;
+    height: 50vh;
 }
 </style>

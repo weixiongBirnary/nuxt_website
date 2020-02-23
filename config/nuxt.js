@@ -4,6 +4,9 @@ module.exports = {
   mode: 'universal',
   dev: process.env.NODE_ENV === 'development',
   srcDir: resolve(__dirname, '..', 'resources'),
+  router: {
+    middleware: 'languageDetection'
+  },
   /*
   ** Headers of the page
   */
@@ -22,6 +25,7 @@ module.exports = {
       }
     ]
   },
+ 
   /*
   ** Customize the progress-bar color
   */
